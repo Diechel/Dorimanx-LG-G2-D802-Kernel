@@ -161,7 +161,7 @@ if [ "$HOST" == "dorimanx-virtual-machine" ] || [ "$HOST" == "dorimanx" ]; then
 	NR_CPUS=16;
 	echo "Dori power detected!";
 else
-	NR_CPUS=4
+	NR_CPUS=8
         echo "not dorimanx system detected, setting $NR_CPUS build threads"
 fi;
 
